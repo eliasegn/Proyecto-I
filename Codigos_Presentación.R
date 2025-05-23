@@ -78,7 +78,7 @@ ggplot(data_completa, aes(x = t)) +
   theme_minimal()
 data_completa$integral[length(data_completa$integral)]
 
-######## Variación Cuadrática
+######## Variación Cuadrática ##############################
 
 estimadores_sigma <- numeric(tray + 1)
 
@@ -155,3 +155,4 @@ quantile(estimadores_mu3, probs = c(0.025, 0.975))
 mean(estimadores_sigma3)
 quantile(estimadores_sigma3, probs = c(0.25, 0.75))
 quantile(estimadores_sigma3, probs = c(0.025, 0.975))
+
