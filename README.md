@@ -4,4 +4,6 @@
 
 **Ajuste.R** es el script que se usó para ajustar la base de datos, se obtuvieron estadísticas de ésta, se hicieron simulaciones con los estimadores y se hizo la validación del modelo. 
 
+**Trayectorias.ipynb** es donde se hicieron las trayectorias para Euler y Milstein en simulación. 
+
 **AAPL.txt** es la base de datos. Se ajustó el primer año, es decir los primeros 252 valores de la columna Close.
