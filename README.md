@@ -1,3 +1,6 @@
+# Estimación Paramétrica para el Movimiento Browniano Geométrico
+## Elías González Nieto y Sebastián Galindo Aguilar
+
 **ProyectoI.R** es el script que se usó conforme se avanzaba, no está tan organizado pero tiene todo. 
 
 **Códigos_Presentación.R** es el script que se usó para armar el documento y datos sobre las simulaciones con los dos métodos de estimación. 
