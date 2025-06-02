@@ -1,5 +1,6 @@
 library(ggplot2)
 library(sde)
+library(nortest)
 milsteinMBG <- function(S0, mu, sigma, T, N) {
   dt <- T / N  # Tamaño del paso
   t <- seq(0, T, length.out = N + 1)  # Vector de tiempo
@@ -156,3 +157,10 @@ mean(estimadores_sigma3)
 quantile(estimadores_sigma3, probs = c(0.25, 0.75))
 quantile(estimadores_sigma3, probs = c(0.025, 0.975))
 
+####### Propiedades Asintóticas ###############
+asintotico <- sqrt(T)*(estimadores_mu3 - mu_real)
+lillie.test(asintotico)
+cvm.test(asintotico)
+ad.test(asintotico)
+muestra <- rnorm(length(asintotico), 0, sigma_real)
+ks.test(asintotico, muestra)
