@@ -12,3 +12,5 @@ A continuación se explica el contenido de los documentos en este repositorio:
 * **Trayectorias.ipynb** es donde se hicieron las trayectorias para Euler y Milstein en simulación. 
 
 * **AAPL.txt** es la base de datos. Se ajustó el primer año, es decir los primeros 252 valores de la columna Close.
+
+* **Estimación_Paramétrica_MBG.pdf** es el reporte final del proyecto.
