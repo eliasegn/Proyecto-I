@@ -1,5 +1,5 @@
 # Estimación Paramétrica para el Movimiento Browniano Geométrico
-## Elías González Nieto y Sebastián Galindo Aguilar
+## Elías González Nieto
 
 A continuación se explica el contenido de los documentos en este repositorio: 
 
